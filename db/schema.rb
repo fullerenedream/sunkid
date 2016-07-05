@@ -11,9 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20160704235749) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "tracks", force: :cascade do |t|
+    t.string  "track_name"
+    t.string  "artist_name"
+    t.string  "album_name"
+    t.integer "track_length"
+    t.string  "track_mp3"
+    t.string  "track_wav"
+  end
 
 end
