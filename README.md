@@ -5,7 +5,9 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version: 2.1.3
+* Ruby version: 2.3.1
+
+* Rails version: 5.0.0
 
 * System dependencies
 
@@ -20,6 +22,10 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+
+* Run rails with command:  rails s -b 0.0.0.0
+
+* App is at localhost:3000
 
 * ...
 
